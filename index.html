@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/bc-73-html-css-Gleb-Yas/assets/favicon-967c0d39.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Watch Spot</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+    <script type="module" crossorigin src="/bc-73-html-css-Gleb-Yas/commonHelpers.js"></script>
+    <link rel="stylesheet" href="/bc-73-html-css-Gleb-Yas/assets/index-28653048.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container">
+    <a class="logo-header" href="./index.html">watchcharm</a>
+    <button
+      id="openButton"
+      class="btn_menu_header"
+      type="button"
+      aria-label="button open mobile menu"
+    >
+      <svg width="34" height="34" class="menu_header_icon">
+        <use href="/bc-73-html-css-Gleb-Yas/assets/icons-6402e038.svg#icon-menu"></use>
+      </svg>
+    </button>
+    <nav class="nav-header-desc">
+      <ul class="nav-header-list-desc">
+        <li class="nav-header-item-desc-home">
+          <a href="#hero">Home</a>
+        </li>
+        <li class="nav-header-item-desc"><a href="#about">About Us</a></li>
+        <li class="nav-header-item-desc"><a href="#catalog">Catalog</a></li>
+        <li class="nav-header-item-desc"><a href="#sale">Sale</a></li>
+        <li class="nav-header-item-desc"><a href="#review">Reviews</a></li>
+        <li class="nav-header-item-desc"><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+    <ul class="socials-header-desc">
+      <li class="socials-header-link-desc">
+        <a
+          class="link-header-desc"
+          href="https://www.facebook.com/goITclub/"
+          aria-label="Facebook link"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <svg class="header-icon-desc" width="20" height="20">
+            <use href="/bc-73-html-css-Gleb-Yas/assets/icons-6402e038.svg#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="socials-header-link-desc">
+        <a
+          class="link-header-desc"
+          href="https://www.instagram.com/goitclub/"
+          aria-label="instagram link"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <svg class="header-icon-desc" width="20" height="20">
+            <use href="/bc-73-html-css-Gleb-Yas/assets/icons-6402e038.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="socials-header-link-desc">
+        <a
+          class="link-header-desc"
+          href="https://www.youtube.com/c/GoIT"
+          aria-label="youtube link"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <svg class="header-icon-desc" width="20" height="20">
+            <use href="/bc-73-html-css-Gleb-Yas/assets/icons-6402e038.svg#icon-youtube"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div id="backdrop" class="backdrop">
+    <div class="menu_header">
+      <button
+        id="closeButton"
+        class="btn-close-header-menu"
+        type="button"
+        aria-label="button close menu header"
+      >
+        <svg class="close-header-icon" width="17" height="17">
+          <use href="/bc-73-html-css-Gleb-Yas/assets/icons-6402e038.svg#icon-x-close"></use>
+        </svg>
+      </button>
+      <nav class="nav-header">
+        <ul class="nav-header-list">
+          <li class="nav-header-item home"><a href="#hero">Home</a></li>
+          <li class="nav-header-item"><a href="#about">About Us</a></li>
+          <li class="nav-header-item"><a href="#catalog">Catalog</a></li>
+          <li class="nav-header-item"><a href="#sale">Sale</a></li>
+          <li class="nav-header-item"><a href="#review">Reviews</a></li>
+          <li class="nav-header-item"><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+      <ul class="socials-header">
+        <li class="socials-header-list">
+          <a
+            class="link-header-mobil"
+            href="https://www.facebook.com/goITclub/"
+            aria-label="facebook link"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg class="header-icon" width="18" height="18">
+              <use href="/bc-73-html-css-Gleb-Yas/assets/icons-6402e038.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="socials-header-list">
+          <a
+            class="link-header-mobil"
+            href="https://www.instagram.com/goitclub/"
+            aria-label="instagram link"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg class="header-icon" width="18" height="18">
+              <use href="/bc-73-html-css-Gleb-Yas/assets/icons-6402e038.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="socials-header-list">
+          <a
+            class="link-header-mobil"
+            href="https://www.youtube.com/c/GoIT"
+            aria-label="youtube link"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg class="header-icon" width="18" height="18">
+              <use href="/bc-73-html-css-Gleb-Yas/assets/icons-6402e038.svg#icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<script src="../main.js"></script>
+
+    <main>
+      <section class="hero-section" id="hero">
+  <div class="container">
+    <div class="hero-main-box">
+      <div class="hero-title-box">
+        <h1 class="hero-title">
+          Welcome to our <span class="hero-title_color">collection</span> of
+          premium watches
+        </h1>
+
+        <p class="hero-paragraph">
+          Our watches are not just timepieces, but also an expression of your
+          personality and lifestyle. From classic designs to modern ones, we
+          have a watch to suit every taste and occasion.
+        </p>
+      </div>
+
+      <div class="hero-image-box">
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="/bc-73-html-css-Gleb-Yas/assets/portraits@1x-f4364439.png 1x, /bc-73-html-css-Gleb-Yas/assets/portraits@2x-575b5a07.png 2x"
+            type="image/png"
+          />
+
+          <source
+            media="(min-width: 768px)"
+            srcset="/bc-73-html-css-Gleb-Yas/assets/portraits_tab@1x-44ec50a4.png 1x, /bc-73-html-css-Gleb-Yas/assets/portraits_tab@2x-1afe98d0.png 2x"
+            type="image/png"
+          />
+
+          <source
+            media="(min-width: 320px)"
+            srcset="/bc-73-html-css-Gleb-Yas/assets/portraits_mob@1x-2a7b0f24.png 1x, /bc-73-html-css-Gleb-Yas/assets/portraits_mob@2x-9bbf6b05.png 2x"
+            type="image/png"
+          />
+
+          <img
+            class="hero-image-team"
+            src="/bc-73-html-css-Gleb-Yas/assets/portraits_mob@1x-2a7b0f24.png"
+            alt="hero-image"
+            width="108"
+            height="44"
+            loading="lazy"
+          />
+        </picture>
+
+        <a class="hero-link-down" href="#scroll-footer">Scroll down</a>
+      </div>
+    </div>
+
+    <picture>
+      <source
+        media="(min-width: 1280px)"
+        srcset="/bc-73-html-css-Gleb-Yas/assets/hero-pic_desk@1x-01b5b437.jpg 1x, /bc-73-html-css-Gleb-Yas/assets/hero-pic_desk@2x-0821ce18.jpg 2x"
+        type="image/jpg"
+      />
+
+      <source
+        media="(min-width: 768px)"
+        srcset="/bc-73-html-css-Gleb-Yas/assets/hero-pic_tab@1x-5ab0ff48.jpg 1x, /bc-73-html-css-Gleb-Yas/assets/hero-pic_tab@2x-2cb6c441.jpg 2x"
+        type="image/jpg"
+      />
+
+      <source
+        media="(min-width: 320px)"
+        srcset="/bc-73-html-css-Gleb-Yas/assets/hero-pic_mob@1x-dee874d4.jpg 1x, /bc-73-html-css-Gleb-Yas/assets/hero-pic_mob@2x-67afd519.jpg 2x"
+        type="image/jpg"
+      />
+
+      <img
+        class="hero-main-photo"
+        src="/bc-73-html-css-Gleb-Yas/assets/hero-pic_mob@1x-dee874d4.jpg"
+        alt="hero-main-image"
+        width="335"
+        height="366"
+        loading="lazy"
+      />
+    </picture>
+  </div>
+</section>
+
+      <section class="about-section" id="about">
+  <div class="container">
+    <div class="about-container">
+      <div class="about-text-container">
+        <div>
+          <h2 class="about-title">About Us</h2>
+          <ul class="about-text-box">
+            <li>
+              <p class="about-descr">
+                Welcome to our premium watch collection, where luxury and style
+                meet functionality and precision. Our selection of timepieces
+                embodies the very best in Swiss craftsmanship and engineering,
+                ensuring that you'll always have a reliable and stylish
+                accessory on your wrist.
+              </p>
+            </li>
+            <li>
+              <p class="about-descr">
+                At our premium watch collection, we believe that a watch is more
+                than just a timekeeping device – it's a statement piece that
+                reflects your personality and style. So why settle for anything
+                less than the best?
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="about-btn-box">
+          <a class="about-link" href="#catalog">View catalog</a>
+        </div>
+      </div>
+      <div class="about-img-box">
+        <picture>
+          <source
+            srcset="/bc-73-html-css-Gleb-Yas/assets/about_desk@1x-69a77a1e.jpg 1x, /bc-73-html-css-Gleb-Yas/assets/about_desk@2x-44717450.jpg 2x"
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="/bc-73-html-css-Gleb-Yas/assets/about_tab@1x-8a550b0f.jpg 1x, /bc-73-html-css-Gleb-Yas/assets/about_tab@2x-6c8bf1f7.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/bc-73-html-css-Gleb-Yas/assets/about_mob@1x-c0394091.jpg 1x, /bc-73-html-css-Gleb-Yas/assets/about_mob@2x-b85a2183.jpg 2x"
+            media="(min-width: 320px)"
+          />
+          <img
+            src="/bc-73-html-css-Gleb-Yas/assets/about_mob@1x-c0394091.jpg"
+            srcset="/bc-73-html-css-Gleb-Yas/assets/about_mob@2x-b85a2183.jpg 2x"
+            alt="black
+            watch"
+            loading="lazy"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="catalog" id="catalog">
+  <div class="container">
+    <h2 class="catalog-title">Catalog</h2>
+    <ul class="catalog-list">
+      <li class="catalog-items">
+        <div class="catalog-container">
+          <picture>
+            <source
+              media="(min-width: 1280px)"
+              srcset="/bc-73-html-css-Gleb-Yas/assets/fenix-7_desk@1x-c7b95fca.png 1x, /bc-73-html-css-Gleb-Yas/assets/fenix-7_desk@2x-51836e09.png 2x"
+              type="image/png"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="/bc-73-html-css-Gleb-Yas/assets/fenix-7_tab@1x-30167b59.png 1x, /bc-73-html-css-Gleb-Yas/assets/fenix-7_tab@2x-d11ba462.png 2x"
+              type="image/png"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/bc-73-html-css-Gleb-Yas/assets/fenix-7_mob@1x-e13af7c5.png , /bc-73-html-css-Gleb-Yas/assets/fenix-7_mob@2x-84b53e76.png 2x"
+              type="image/png"
+            />
+
+            <img
+              src="/bc-73-html-css-Gleb-Yas/assets/fenix-7_mob@1x-e13af7c5.png"
+              alt="fenix-7"
+              loading="lazy"
+            />
+          </picture>
+          <!-- <img
+            class="catalog-img"
+            src="../img/catalog/fenix-7_mob@1x.png"
+            alt=""
+            width="208px"
+          /> -->
+        </div>
+        <h3 class="catalog-watch-name">Garmin Fenix 7X Pro Sapphire Solar</h3>
+        <p class="catalog-warch-price">€500</p>
+      </li>
+      <li class="catalog-items">
+        <div class="catalog-container">
+          <picture>
+            <source
+              media="(min-width: 1280px)"
+              srcset="/bc-73-html-css-Gleb-Yas/assets/marq_desk@1x-159fa862.png 1x, /bc-73-html-css-Gleb-Yas/assets/marq_desk@2x-8184af1d.png 2x"
+              type="image/png"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="/bc-73-html-css-Gleb-Yas/assets/marq_tab@1x-6296ed9d.png , /bc-73-html-css-Gleb-Yas/assets/marq_tab@2x-6f599c3e.png 2x"
+              type="image/png"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/bc-73-html-css-Gleb-Yas/assets/marq_mob@1x-8ff2e86c.png , /bc-73-html-css-Gleb-Yas/assets/marq_mob@2x-117c892a.png 2x"
+              type="image/png"
+            />
+            <img
+              src="/bc-73-html-css-Gleb-Yas/assets/marq_mob@1x-8ff2e86c.png"
+              alt="marq"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+        <h3 class="catalog-watch-name">Garmin Marq Athlete</h3>
+        <p class="catalog-warch-price">€450</p>
+      </li>
+      <li class="catalog-items">
+        <div class="catalog-container">
+          <picture>
+            <source
+              media="(min-width: 1280px)"
+              srcset="/bc-73-html-css-Gleb-Yas/assets/descent_desk@1x-e78fc32f.png 1x, /bc-73-html-css-Gleb-Yas/assets/descent_desk@2x-5927caff.png 2x"
+              type="image/png"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="/bc-73-html-css-Gleb-Yas/assets/descent_tab@1x-aceb5023.png , /bc-73-html-css-Gleb-Yas/assets/descent_tab@2x-0ca691d4.png 2x"
+              type="image/png"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/bc-73-html-css-Gleb-Yas/assets/descent_mob@1x-fa8d61c1.png , /bc-73-html-css-Gleb-Yas/assets/descent_mob@2x-a3e2f216.png 2x"
+              type="image/png"
+            />
+            <img
+              src="/bc-73-html-css-Gleb-Yas/assets/descent_mob@1x-fa8d61c1.png"
+              alt="descent"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+        <h3 class="catalog-watch-name">Garmin Descent MK1</h3>
+        <p class="catalog-warch-price">€680</p>
+      </li>
+      <li class="catalog-items">
+        <div class="catalog-container">
+          <picture>
+            <source
+              media="(min-width: 1280px)"
+              srcset="/bc-73-html-css-Gleb-Yas/assets/delta_desk@1x-58c3309a.png 1x, /bc-73-html-css-Gleb-Yas/assets/delta_desk@2x-91274c6c.png 2x"
+              type="image/png"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="/bc-73-html-css-Gleb-Yas/assets/delta_tab@1x-43dabf8e.png , /bc-73-html-css-Gleb-Yas/assets/delta_tab@2x-7e16839a.png 2x"
+              type="image/png"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/bc-73-html-css-Gleb-Yas/assets/delta_mob@1x-4b15e3c0.png , /bc-73-html-css-Gleb-Yas/assets/delta_mob@2x-8c325593.png 2x"
+              type="image/png"
+            />
+            <img
+              src="/bc-73-html-css-Gleb-Yas/assets/delta_mob@1x-4b15e3c0.png"
+              alt="descent"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+        <h3 class="catalog-watch-name">Garmin D2 Delta PX</h3>
+        <p class="catalog-warch-price">€380</p>
+      </li>
+      <li class="catalog-items catalog-hidden">
+        <div class="catalog-container">
+          <picture>
+            <source
+              media="(min-width: 1280px)"
+              srcset="/bc-73-html-css-Gleb-Yas/assets/fenix-6_desk@1x-dd975f4d.png 1x, /bc-73-html-css-Gleb-Yas/assets/fenix-6_desk@2x-e48b3fdb.png 2x"
+              type="image/png"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="/bc-73-html-css-Gleb-Yas/assets/fenix-6_tab@1x-bdbbefcf.png , /bc-73-html-css-Gleb-Yas/assets/fenix-6_tab@2x-0ca0c1d3.png 2x"
+              type="image/png"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/bc-73-html-css-Gleb-Yas/assets/fenix-6_tab@1x-bdbbefcf.png , /bc-73-html-css-Gleb-Yas/assets/fenix-6_tab@2x-0ca0c1d3.png 2x"
+              type="image/png"
+            />
+            <img
+              src="/bc-73-html-css-Gleb-Yas/assets/fenix-6_tab@1x-bdbbefcf.png"
+              alt="fenix-6"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+        <h3 class="catalog-watch-name">Garmin Fenix 6 Pro Solar</h3>
+        <p class="catalog-warch-price">€400</p>
+      </li>
+      <li class="catalog-items catalog-hidden">
+        <div class="catalog-container">
+          <picture>
+            <source
+              media="(min-width: 1280px)"
+              srcset="/bc-73-html-css-Gleb-Yas/assets/tube_desk@1x-c4b42a53.png 1x, /bc-73-html-css-Gleb-Yas/assets/tube_desk@2x-53326c14.png 2x"
+              type="image/png"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="/bc-73-html-css-Gleb-Yas/assets/tube_tab@1x-21cb82fc.png , /bc-73-html-css-Gleb-Yas/assets/tube_tab@2x-3246d207.png 2x"
+              type="image/png"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/bc-73-html-css-Gleb-Yas/assets/tube_tab@1x-21cb82fc.png , /bc-73-html-css-Gleb-Yas/assets/tube_tab@2x-3246d207.png 2x"
+              type="image/png"
+            />
+            <img
+              src="/bc-73-html-css-Gleb-Yas/assets/tube_tab@1x-21cb82fc.png"
+              alt="tube"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+        <h3 class="catalog-watch-name">
+          Tube Watch S42 Date Steel With Black Case
+        </h3>
+        <p class="catalog-warch-price">€395</p>
+      </li>
+    </ul>
+    <button id="show-more-button" class="catalog-button" type="button">
+      Show more
+    </button>
+  </div>
+</section>
+
+      <section class="adv-section" id="advertisement">
+  <div class="container">
+    <div class="adv-container">
+      <div class="adv-box">
+        <h2 class="adv-title visually-hidden">Advertisement</h2>
+        <p class="adv-text">
+          Choose <span class="adv-grey-text">your story</span>, making every
+          moment unique. Time is your style, and we reveal it.
+        </p>
+        <div class="adv-link-box">
+          <a class="adv-link" href="#contact">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="sale" id="sale">
+  <div class="container">
+    <h2 class="sale-title">Sale</h2>
+    <div class="sale-pictures">
+      <div class="sale-picture">
+        <ul class="sale-list">
+          <li class="sale-list-item">
+            <picture class="sale-list-picture">
+              <source
+                media="(min-width: 768px)"
+                srcset="/bc-73-html-css-Gleb-Yas/assets/small-1_desk_tab@1x-bac6bbcd.png 1x, /bc-73-html-css-Gleb-Yas/assets/small-1_desk_tab@2x-8bd3fb42.png 2x"
+                type="image/png"
+              />
+              <source
+                media="(max-width: 767px)"
+                srcset="data:image/png;base64,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 1x, /bc-73-html-css-Gleb-Yas/assets/small-1_mob@2x-93666ef1.png 2x"
+                type="image/png"
+              />
+              <img
+                src="/bc-73-html-css-Gleb-Yas/assets/small-1_desk_tab@1x-bac6bbcd.png"
+                alt="Front of the clock"
+                width="96"
+                height="100"
+                loading="lazy"
+              />
+            </picture>
+          </li>
+          <li class="sale-list-item">
+            <picture class="sale-list-picture">
+              <source
+                media="(min-width: 768px)"
+                srcset="/bc-73-html-css-Gleb-Yas/assets/small-2_desk_tab@1x-dfe3329a.png 1x, /bc-73-html-css-Gleb-Yas/assets/small-2_desk_tab@2x-9afc92ff.png 2x"
+                type="image/png"
+              />
+              <source
+                media="(max-width: 767px)"
+                srcset="data:image/png;base64,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 1x, /bc-73-html-css-Gleb-Yas/assets/small-2_mob@2x-29487499.png 2x"
+                type="image/png"
+              />
+              <img
+                src="/bc-73-html-css-Gleb-Yas/assets/small-2_desk_tab@1x-dfe3329a.png"
+                alt="Watch dial"
+                width="96"
+                height="100"
+                loading="lazy"
+              />
+            </picture>
+          </li>
+          <li class="sale-list-item">
+            <picture class="sale-list-picture">
+              <source
+                media="(min-width: 768px)"
+                srcset="/bc-73-html-css-Gleb-Yas/assets/small-3_desk_tab@1x-ecf31263.png 1x, /bc-73-html-css-Gleb-Yas/assets/small-3_desk_tab@2x-49aadc58.png 2x"
+                type="image/png"
+              />
+              <source
+                media="(max-width: 767px)"
+                srcset="data:image/png;base64,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 1x, /bc-73-html-css-Gleb-Yas/assets/small-3_mob@2x-0c1252e8.png 2x"
+                type="image/png"
+              />
+              <img
+                src="/bc-73-html-css-Gleb-Yas/assets/small-3_desk_tab@1x-ecf31263.png"
+                alt="Watch left side"
+                width="96"
+                height="100"
+                loading="lazy"
+              />
+            </picture>
+          </li>
+          <li class="sale-list-item">
+            <picture class="sale-list-picture">
+              <source
+                media="(min-width: 768px)"
+                srcset="/bc-73-html-css-Gleb-Yas/assets/small-4_desk_tab@1x-09e6dc94.png 1x, /bc-73-html-css-Gleb-Yas/assets/small-4_desk_tab@2x-910d989f.png 2x"
+                type="image/png"
+              />
+              <source
+                media="(max-width: 767px)"
+                srcset="/bc-73-html-css-Gleb-Yas/assets/small-4_mob@1x-6fd59bdc.png 1x, /bc-73-html-css-Gleb-Yas/assets/small-4_mob@2x-3e0c4841.png 2x"
+                type="image/png"
+              />
+              <img
+                src="/bc-73-html-css-Gleb-Yas/assets/small-4_desk_tab@1x-09e6dc94.png"
+                alt="Watch strap"
+                width="96"
+                height="100"
+                loading="lazy"
+              />
+            </picture>
+          </li>
+        </ul>
+        <div class="sale-main-watch">
+          <picture class="sale-list-watch">
+            <source
+              media="(min-width: 768px)"
+              srcset="/bc-73-html-css-Gleb-Yas/assets/big-pic_desk_tab@1x-6d2601be.png 1x, /bc-73-html-css-Gleb-Yas/assets/big-pic_desk_tab@2x-9b1e058f.png 2x"
+              type="image/png"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/bc-73-html-css-Gleb-Yas/assets/big-pic_mob@1x-db32a266.png 1x, /bc-73-html-css-Gleb-Yas/assets/big-pic_mob@2x-260e74b8.png 2x"
+              type="image/png"
+            />
+            <img
+              src="/bc-73-html-css-Gleb-Yas/assets/big-pic_desk_tab@1x-6d2601be.png"
+              alt="Main Watch"
+              width="328"
+              height="398"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+      </div>
+      <div class="sale-desc">
+        <h3 class="sale-desc-title">
+          MARQ&#174; Commander (Gen 2) - Carbon Edition
+        </h3>
+        <p class="sale-desc-number">Product tag: 706587</p>
+        <div class="sale-prises">
+          <span class="sale-price">&#8364;1500</span>
+          <span class="sale-old-price">&#8364;3000</span>
+        </div>
+        <p class="sale-desc-text">
+          The Garmin MARQ Commander Gen 2 Carbon Edition is a modern smartwatch
+          for adventurers that takes materials and features to the next level.
+          The body of the watch is made of very durable Fused Carbon Fiber
+          material and has a precise AMOLED touch screen. The sensitive touch
+          screen is complemented by buttons that can be used in any conditions.
+        </p>
+        <ul class="sale-watch-types">
+          <li>
+            <p class="sale-watch-type">Fused carbon fiber</p>
+          </li>
+          <li>
+            <p class="sale-watch-type">Grade-5 Titanuim</p>
+          </li>
+          <li>
+            <p class="sale-watch-type">Athlete</p>
+          </li>
+          <li>
+            <p class="sale-watch-type">Golfer</p>
+          </li>
+          <li>
+            <p class="sale-watch-type">Commander</p>
+          </li>
+          <li>
+            <p class="sale-watch-type">Adventurer</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="review" id="review">
+  <div class="container review-container">
+    <h2 class="review-title">Reviews</h2>
+    <ul class="review-list">
+      <li class="review-card">
+        <img
+          srcset="/bc-73-html-css-Gleb-Yas/assets/john@1x-b0c89e97.png 1x, /bc-73-html-css-Gleb-Yas/assets/john@2x-75f46693.png 2x"
+          src="/bc-73-html-css-Gleb-Yas/assets/john@1x-b0c89e97.png"
+          alt="John Wax photo"
+          width="56"
+          height="56"
+          class="review-img"
+        />
+        <h3 class="reviewer-name">John Wax</h3>
+        <p class="review-text">
+          Buying a watch from was the best choice for me. The design is
+          perfectly combined with high quality materials. The strap fits nicely
+          on the hand, and the mechanism works flawlessly.
+        </p>
+      </li>
+      <li class="review-card">
+        <img
+          srcset="/bc-73-html-css-Gleb-Yas/assets/victoria@1x-6efb6efd.png 1x, /bc-73-html-css-Gleb-Yas/assets/victoria@2x-a5d48441.png 2x"
+          src="/bc-73-html-css-Gleb-Yas/assets/victoria@1x-6efb6efd.png"
+          alt="Victoria Romashenko photo"
+          width="56"
+          height="56"
+          class="review-img"
+        />
+        <h3 class="reviewer-name">Victoria Romashenko</h3>
+        <p class="review-text">
+          Can't take my eyes off my watch from. Every time I put it on, it is
+          admired by those around me. The build quality and attention to detail
+          make it a real gem among my accessories.
+        </p>
+      </li>
+      <li class="review-card">
+        <img
+          srcset="/bc-73-html-css-Gleb-Yas/assets/anastasia@1x-33d635bb.png 1x, /bc-73-html-css-Gleb-Yas/assets/anastasia@2x-d8fb7821.png 2x"
+          src="/bc-73-html-css-Gleb-Yas/assets/anastasia@1x-33d635bb.png"
+          alt="Anastasia Trachuk photo"
+          width="56"
+          height="56"
+          class="review-img"
+        />
+        <h3 class="reviewer-name">Anastasia Trachuk</h3>
+        <p class="review-text">
+          My watch from is a real masterpiece. Every detail impresses with the
+          high quality of execution. Special features like [specify features]
+          make it an indispensable companion in my daily life.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="contact-us" id="contact">
+  <div class="container">
+    <h2 class="contact-us-heading">Contact Us</h2>
+
+    <!--Wrapper Form + Image-->
+
+    <div class="contact-us-container-wrapper">
+      <!--Container Form-->
+
+      <div class="contact-us-container-form">
+        <form class="contact-us-form">
+          <p class="contact-us-paragraph-text">
+            Please use the form below to contact us. Enter your name, email,
+            phone, and message and we'll get back to you shortly.
+          </p>
+          <label class="contact-us-form-label" for="user_name"></label>
+            <input
+              class="contact-us-input"
+              id="user_name"
+              type="text"
+              name="user_name"
+              required
+              maxlength="40"
+              placeholder="Name"
+              pattern="[A-Za-z0-9]{1,}"
+              aria-label="Write your name"
+            />
+          
+          <label class="contact-us-form-label" for="user_email"></label>
+            <input
+              class="contact-us-input"
+              id="user_email"
+              type="email"
+              name="user_email"
+              required
+              placeholder="Email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              aria-label="Write your email"
+            />
+          
+          <label class="contact-us-form-label" for="user_phone"></label>
+            <input
+              class="contact-us-input"
+              id="user_phone"
+              type="tel"
+              name="user_phone"
+              required
+              placeholder="+380"
+              pattern="^+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+              aria-label="Input field telephon"
+              title=" +380-XX-XXX-XX-XX"
+            />
+          
+          <label class="contact-us-form-label" for="comment_user"></label>
+            <textarea
+              class="contact-us-textarea-input"
+              name="comment_user"
+              id="comment_user"
+              required
+              placeholder="Comment"
+              maxlength="700"
+              aria-label="Write your comment"
+            ></textarea>
+          
+          <button class="btn-send" type="submit" aria-label="Button Send">Send</button>
+        </form>
+      </div>
+
+      <!--Container Image-->
+
+      <div class="contact-us-container-image">
+        <picture class="contact-us-image">
+          <source
+            media="(min-width: 1280px)"
+            srcset="/bc-73-html-css-Gleb-Yas/assets/contact_desk@1x-d02d33f6.jpg 1x, /bc-73-html-css-Gleb-Yas/assets/contact_desk@2x-dff19451.jpg 2x"
+            width="530"
+            height="556"
+          />
+
+          <source
+            media="(min-width: 768px)"
+            srcset="/bc-73-html-css-Gleb-Yas/assets/contact_tab@1x-45cb1a4f.jpg 1x, /bc-73-html-css-Gleb-Yas/assets/contact_tab@2x-6ffb0578.jpg 2x"
+            width="704"
+            height="556"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="/bc-73-html-css-Gleb-Yas/assets/contact_mob@1x-982ad733.jpg 1x, /bc-73-html-css-Gleb-Yas/assets/contact_mob@2x-72170837.jpg 2x"
+          />
+
+          <img
+            src="/bc-73-html-css-Gleb-Yas/assets/contact_mob@1x-982ad733.jpg"
+            alt="Watch"
+             width="335" 
+            height="512" 
+            loading="lazy"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="end-page" id="scroll-footer">
+  <div class="footer-container container">
+    <div class="footer-content">
+      <div class="footer-row">
+        <div class="footer-logo-link">
+          <a href="" class="footer-logo">watchcharm</a>
+          <ul class="footer-socials-list">
+            <li class="footer-socials">
+              <a
+                href="https://www.facebook.com/goITclub/"
+                class="footer-social-link"
+                target="_blank"
+              >
+                <svg class="footer-social-icon" width="18" height="18">
+                  <use href="/bc-73-html-css-Gleb-Yas/assets/icons-6402e038.svg#icon-facebook" />
+                </svg>
+              </a>
+            </li>
+            <li class="footer-socials">
+              <a
+                href="https://www.instagram.com/goitclub/"
+                class="footer-social-link"
+                target="_blank"
+              >
+                <svg class="footer-social-icon" width="18" height="18">
+                  <use href="/bc-73-html-css-Gleb-Yas/assets/icons-6402e038.svg#icon-instagram" />
+                </svg>
+              </a>
+            </li>
+            <li class="footer-socials">
+              <a
+                href="https://www.youtube.com/c/GoIT "
+                class="footer-social-link"
+                target="_blank"
+              >
+                <svg class="footer-social-icon" width="18" height="18">
+                  <use href="/bc-73-html-css-Gleb-Yas/assets/icons-6402e038.svg#icon-youtube" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <a class="footer-phone-number" href="tel:+380684439426"
+          >+380 (68) 443-94-26</a
+        >
+      </div>
+      <p class="footer-large-text">
+        Have the time of your life with our watches: where high-class
+        craftsmanship meets impeccable design
+      </p>
+      <div class="footer-nav-container">
+        <ul class="footer-nav-list">
+          <li class="footer-nav-icon">
+            <a class="footer-nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="footer-nav-icon">
+            <a href="#about" class="footer-nav-link">About Us</a>
+          </li>
+          <li class="footer-nav-icon">
+            <a href="#catalog" class="footer-nav-link">Catalog</a>
+          </li>
+          <li class="footer-nav-icon">
+            <a href="#sale" class="footer-nav-link">Sale</a>
+          </li>
+          <li class="footer-nav-icon">
+            <a href="#review" class="footer-nav-link">Reviews</a>
+          </li>
+          <li class="footer-nav-icon">
+            <a href="#contact" class="footer-nav-link">Contact Us</a>
+          </li>
+        </ul>
+        <p class="footer-adress">1678 S. Pionee Road Salt Lake City UT 84104</p>
+      </div>
+      <div class="footer-down-content">
+        <p>&#169;2023 The Watch Spot. All rights reserved.</p>
+        <a class="confidential-link" href="#">Terms of Service</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+  </body>
+</html>
