@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/brainstorm-battalion-team-project/",
+    "build": "vite build --base=/bc-73-html-css-Gleb-Yas/",
     "preview": "vite preview"
   },
   "devDependencies": {
